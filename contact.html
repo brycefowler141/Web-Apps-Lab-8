@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <link rel = "stylesheet" href="style.css" type="text/css">
+	<title>Christmas Store</title>
+    <script src = "https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class = "box">
+        <header role = "banner"> 
+            <div class = "bannerImage">
+                <a href = "index.html"><img src = "https://m.media-amazon.com/images/I/41+ZnrYco2L._AC_SY580_.jpg" alt = "Christmas Message"></a>
+            </div>
+            <h1 style="color: red;">Welcome to Our Christmas Store</h1> 
+            <p><b>This page should be tried in safari, chrome or Mozila.</b></p>  
+        </header> 
+
+        <nav>
+            <ul>
+                <li><a href ="index.html">Home</a></li>
+                <li><a href ="contact.html">Contact Us</a></li>
+                <li><a href ="deals.html">&apos;Today's Deal&apos;</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class = "contactForm">
+                <h1 style = "color:red">Contact Us</h1>
+                <form action = "index.html">
+                    <label id = "first" for = "FirstName">First Name: </label>
+                    <input type = "text" id = "FirstName" name = "FirstName"> <br><br>
+                    <label id = "last" for = "LastName">Last Name: </label>
+                    <input type = "text" id = "LastName" name = "LastName"><br><br>
+                    <label id = "emailStyle" for = "email">Enter Your Email: </label>
+                    <input type = "text" id = "email" name = "email"><br><br>
+                    <label id = "text" for = "textarea">Your Message: </label>
+                    <input type = "text" id = "textarea" name = "textarea"><br><br>
+                    <label id = "regionStyle" for = "region">Select Your Region</label>
+                    <select id = "region" name = "region">
+                        <option value = "North America">North America</option>
+                        <option value = "South America">South America</option>
+                        <option value = "Europe">Europe</option>
+                        <option value = "Asia">Asia</option>
+                        <option value = "Africa">Africa</option>
+                        <option value = "Australia">Australia</option>
+                        <option value = "Antarctica">Antarctica</option>
+                    </select>
+                    <br><br>
+                    <input type = "submit" value = "submit">
+                </form>
+
+                <h1 style = "color:red">Thank You For Your Submission. We Will Respond Shortly!</h1>
+
+                <img src = "https://freesvg.org/img/1576106206AnimatedChristmasTree.png" alt = "Christmas Tree">
+                
+            </div>
+        </article>
+
+        <footer class = "text-center">
+            <br>
+            &#169; 2023 Fowler
+        </footer>
+
+    </div>
+
+</body>
+</html>
